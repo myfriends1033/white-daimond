@@ -1,0 +1,127 @@
+#BackTop{
+    position: fixed;
+    bottom: 1.5rem;
+    right: 2rem;
+    cursor: pointer;
+    display: none;
+    width: 60px;
+    height: 60px;
+    background: url(top.png) center no-repeat;
+    background-size: 100% auto;
+}
+
+#BackTop:hover{
+    background: url(top_hover.png) center no-repeat;
+    background-size: 100% auto;
+}
+
+
+body{
+    cursor: url(https://myfriends1033.github.io/article/photo/cur.cur), auto !important;
+    /*cursor: url(https://cur.cursors-4u.net/user/use-1/use75.cur), auto !important;*/
+    /*background-color: rgb(223, 232, 232);*/
+    background: url(015933.png) no-repeat center;
+    background-size: cover;
+    height: auto;
+}
+
+
+@media screen and (max-width: 600px){
+    .MenuBar ul{
+        padding-inline-start: 20px;
+    }
+
+    .up600 {
+        display:none;
+    }
+
+    .down600 {
+        background-color:aliceblue;
+        border-radius: 7px;
+        position: absolute;
+        top: 35px;
+        right: 10px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 601px){
+    .MenuBar ul{
+        padding-inline-start: 50px;
+    }
+
+    .up600 {
+        background-color:aliceblue;
+        border-radius: 10.5px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .down600 {
+        display:none;
+    }
+}
+
+.header{
+    /*width: 500px;*/
+    height: 20%;
+    position: relative;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-content: center;      
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 660px;
+    max-width: 85%;
+    height: 100%;
+    /*position: relative;
+    left: 10%;*/
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;
+    /* 垂直置中 */
+    align-content: center;      
+    flex-wrap: wrap;
+}
+
+.photobase{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.MenuBar{
+    background-color: gray;
+    width:100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: sticky;
+    top: 0;
+    /*left: 0;*/
+}
+
+.MenuBar ul div{
+    /*position: relative;*/
+    top:0px;
+    left:0px;
+    width: 30em;
+    height: 60px;
+    user-select: none;
+}
+.MenuBar ul div li{
+    padding: 5px;
+    display: inline-block;
+}
+.MenuBar ul div li span{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
