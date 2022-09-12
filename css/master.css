@@ -9,6 +9,7 @@
     background: url(https://myfriends1033.github.io/white-daimond/photo4web/top.png) center no-repeat;
     background-size: 100% auto;
     border:none;
+    border-radius: 180px 180px 180px 180px;
 }
 
 /*#BackTop:hover{
