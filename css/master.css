@@ -98,6 +98,11 @@ body{
     box-sizing: border-box;
 }
 
+.photomain{
+    width: 100%;
+    display:block;
+}
+
 .MenuBar{
     background-color: gray;
     width:100%;
