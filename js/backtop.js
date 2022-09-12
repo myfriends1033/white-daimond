@@ -3,10 +3,10 @@ $(function(){
       $('html,body').animate({scrollTop:0}, 333);
     });
     $(window).scroll(function() {
-      if ( $(this).scrollTop() > 200 ){
-        $('#BackTop').fadeIn(222);
+      if ( $(this).scrollTop() > 100 ){
+        $('#BackTop').fadeIn(122);
       } else {
-        $('#BackTop').stop().fadeOut(222);
+        $('#BackTop').stop().fadeOut(122);
       }
     }).scroll();
   });
