@@ -213,6 +213,7 @@ body {
     margin-block-start: 1.5em;
     margin-block-end: 0em;
     font-weight: bold;
+    text-align: center;
 }
 
 .vdtitledown {
@@ -221,6 +222,7 @@ body {
     margin-block-start: 0em;
     margin-block-end: 0.83em;
     font-weight: bold;
+    text-align: center;
 }
 
 .footer {
