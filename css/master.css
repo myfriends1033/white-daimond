@@ -10,6 +10,7 @@
     background-size: 100% auto;
     border:none;
     border-radius: 180px 180px 180px 180px;
+    opacity: 0.9;
 }
 
 /*#BackTop:hover{
@@ -29,6 +30,10 @@ body{
 
 
 @media screen and (max-width: 600px){
+    .MenuBar {
+        overflow-x: scroll;
+    }
+    
     .MenuBar > ul{
         padding-inline-start: 20px;
     }
@@ -57,6 +62,7 @@ body{
     }
     
     .MenuBar{
+    overflow-x: hidden;
     display: flex;
     justify-content: center;
     }
@@ -120,7 +126,6 @@ body{
 .MenuBar{
     background-color: rgba(120, 246, 232, 0.8);
     width:100%;
-    overflow-x: scroll;
     overflow-y: hidden;
     position: sticky;
     top: 0;
@@ -145,7 +150,7 @@ body{
     display: inline-block;
     width: 100px;
     height: 90%;
-    background-color: rgba(243, 248, 249, 0.9);
+    background-color: rgba(120, 246, 232, 0.2);
     position: relative;
     display: flex;
     justify-content: center;
@@ -153,6 +158,14 @@ body{
     flex-wrap: wrap;
     border-radius: 1em 1em 1em 1em;
     font: icon;
+}
+
+.MenuBar > ul > div > li > span:hover{
+    background-color: rgba(243, 248, 249, 0.9);
+}
+
+#here {
+    background-color: rgba(243, 248, 249, 0.9);
 }
 
 
