@@ -51,6 +51,10 @@ body {
         cursor: pointer;
     }
 
+    .mainart > div {
+        border: 3px solid rgb(83, 240, 222);
+    }
+
     .mainart > div > iframe {
         max-width: 90%;
         height: 200px;
@@ -87,6 +91,10 @@ body {
 
     .ins_down600 {
         display:none;
+    }
+
+    .mainart > div {
+        border: 4px solid rgb(83, 240, 222);
     }
 
     .mainart > div > iframe {
@@ -193,7 +201,6 @@ body {
     max-width: 85%;
     /*margin:30px 50px 50px 50px;*/
     padding: 10px 5px 10px 5px;
-    border: 4px solid rgb(83, 240, 222);
     display: flex;
     align-items: center;
     justify-content: center;
