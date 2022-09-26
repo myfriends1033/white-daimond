@@ -70,6 +70,7 @@
     }
 
 .inlybutton {
+    z-index: 110;
     position: -webkit-sticky;
     /*上面這行測試*/
     position: sticky;
