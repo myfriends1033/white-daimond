@@ -1,10 +1,3 @@
-const xhr = new XMLHttpRequest();
-xhr.open("GET", "https://myfriends1033.github.io/white-diamond/other/lyrics", true);
-xhr.send();
-//xhr.responseText;
-document.getElementById("lyricspage").innerHTML = xhr.responseText;
-
-
 function infor1open() {
     document.getElementById("infor1").style.cssText += 'display:block';
 }
