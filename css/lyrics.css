@@ -34,6 +34,8 @@
     width: 800px;
     height: 300px;
     overflow-y: scroll;
+    overflow-x: initial;
+    /*上面這行測試*/
     /* right: 50%;
     top: 50%; 
     margin-right:-450px;
@@ -68,6 +70,8 @@
     }
 
 .inlybutton {
+    position: -webkit-sticky;
+    /*上面這行測試*/
     position: sticky;
     top:0;
     opacity: 0.8;
