@@ -18,6 +18,18 @@
     background-size: 100% auto;
 }*/
 
+::selection {
+	background: rgb(62, 205, 189);
+	color:white
+}
+::-moz-selection {
+	background: rgb(62, 205, 189);
+	color:white
+}
+::-webkit-selection {
+	background: rgb(62, 205, 189);
+	color:white
+}
 
 body {
     cursor: url(https://myfriends1033.github.io/article/photo/cur.cur), auto !important;
