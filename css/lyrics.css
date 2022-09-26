@@ -74,4 +74,5 @@
     padding: 6px 12px;
     border-radius: 1em;
     margin-block-start: 0em;
+    z-index: 10099 !important;
 }
