@@ -68,6 +68,7 @@
     }
 
 .inlybutton {
+    display: block;
     position: sticky;
     top:0;
     opacity: 0.8;
