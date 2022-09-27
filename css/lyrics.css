@@ -69,6 +69,9 @@
 
 .inlybutton {
     display: block;
+    /*必須要有上面這行，*/
+    /*才可以在 ios 的手機上*/
+    /*成功 sticky 在其 parent*/
     position: sticky;
     top:0;
     opacity: 0.8;
