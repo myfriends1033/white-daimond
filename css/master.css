@@ -36,12 +36,15 @@ body {
     /*cursor: url(https://cur.cursors-4u.net/user/use-1/use75.cur), auto !important;*/
     /*background-color: rgb(223, 232, 232);*/
     background: url(https://myfriends1033.github.io/white-diamond/photo4web/background.png) top;
-    background-size: contain;
     height: auto;
 }
 
 
 @media screen and (max-width: 600px) {
+    body {
+        background-size: 20%;
+    }
+
     .MenuBar {
         overflow-x: scroll;
     }
@@ -79,6 +82,10 @@ body {
 }
 
 @media screen and (min-width: 601px) {
+    body {
+        background-size: 15%;
+    }
+
     .header {
         height: 155px;
     }
