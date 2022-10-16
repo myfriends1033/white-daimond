@@ -246,9 +246,10 @@ body {
 }
 
 .footer {
-    /*background-color: rgb(0, 255, 213);*/
-    background: url(https://myfriends1033.github.io/white-diamond/photo4web/background.png) no-repeat center;
-    background-size: cover;
+    background-color: rgba(120, 246, 232, 0.7);
+    border-radius: 1em 1em 1em 1em;
+    /* background: url(https://myfriends1033.github.io/white-diamond/photo4web/background.png) no-repeat center;
+    background-size: cover; */
     display: flex;
     align-items: center;
     justify-content: center;
