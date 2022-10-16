@@ -7,10 +7,10 @@
         transform: translateX(0px);
     }
     30% {
-        transform: translateX(-33.4%);
+        transform: translateX(-33.38%);
     }
     45% {
-        transform: translateX(-33.4%);
+        transform: translateX(-33.38%);
     }
     60% {
         transform: translateX(-66.67%);
@@ -55,14 +55,15 @@
 }
 
 .pictures-wrap > ul > li > div {
-    padding: 10%;
+    padding: 6%;
 }
 
 .pictures-wrap img {
     max-width: 100%;
 }
 
-.pictures-wrap > ul > li > img:hover {
+/*z-index = -1 the scale will no working*/
+/* .pictures-wrap img:hover {
     transform: scale(1.2);
     transition: transform 0.8;
-}
+} */
