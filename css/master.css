@@ -67,8 +67,7 @@ body {
     }
 
     .mainart > div {
-        /* border: 5px solid rgb(83, 240, 222); */
-        border: 5px solid rgb(204, 204, 204);
+        border: 0.6em solid rgb(120, 246, 232, 0.7);
     }
 
     .mainart > div > iframe {
@@ -114,7 +113,7 @@ body {
     }
 
     .mainart > div {
-        border: 6px solid rgb(204, 204, 204);
+        border: 0.8em solid rgb(120, 246, 232, 0.7);
     }
 
     .mainart > div > iframe {
