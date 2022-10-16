@@ -1,0 +1,59 @@
+/* 動畫關鍵影格 */
+@keyframes move {
+    7% {
+        transform: translateX(0px);
+    }
+    15% {
+        transform: translateX(0px);
+    }
+    30% {
+        transform: translateX(-33.5%);
+    }
+    45% {
+        transform: translateX(-33.5%);
+    }
+    60% {
+        transform: translateX(-66.67%);
+    }
+    80% {
+        transform: translateX(-66.67%);
+    }
+}
+
+.pictures-wrap > ul,
+.pictures-wrap > ul > li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pictures-wrap {
+    width: 1100px;
+    max-width: 95%;
+    /* margin: 0 auto; */
+    /* border: 5px solid pink; */
+    overflow: hidden;
+}
+
+.pictures-wrap > ul {
+    width: 300%;
+    display: flex;
+    animation: move 20s infinite;
+}
+
+.pictures-wrap > ul > li {
+    width: 1100px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pictures-wrap > ul > li > img {
+    max-width: 100%;
+}
+
+/* .pictures-wrap > ul > li > img:hover {
+    transform: scale(1.2);
+    transition: transform 0.8;
+} */
