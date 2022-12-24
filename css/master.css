@@ -280,7 +280,7 @@ body {
     display: flex;
     border-radius: 2em;
     overflow-x: scroll;
-    scroll-snap-type: x mandatory;
+    scroll-snap-type: x;
 }
 
 .mainart > .videobox > div {
@@ -290,6 +290,23 @@ body {
     justify-content: center;
     flex-direction: column;
     scroll-snap-align: center;
+}
+
+.morebox {
+    display: flex;
+    width: 100%;
+}
+
+.morebox > .leftmore {
+    margin-left: 1em;
+}
+
+.morebox > .middlemore {
+    flex: 1;
+}
+
+.morebox > .rightmore {
+    margin-right: 1em;
 }
 
 .vdtitleup {
