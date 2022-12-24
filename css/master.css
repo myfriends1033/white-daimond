@@ -35,7 +35,7 @@ body {
     cursor: url(https://myfriends1033.github.io/article/photo/cur.cur), auto !important;
     /*cursor: url(https://cur.cursors-4u.net/user/use-1/use75.cur), auto !important;*/
     /*background-color: rgb(223, 232, 232);*/
-    background: url(https://myfriends1033.github.io/white-diamond/photo4web/background2.png) top;
+    background: url(https://myfriends1033.github.io/white-diamond/photo4web/background2.png);
     height: auto;
 }
 
@@ -66,13 +66,29 @@ body {
         cursor: pointer;
     }
 
-    .mainart > div {
+    .mainart > .mainbox {
         border: 0.6em solid rgb(120, 246, 232, 0.7);
     }
 
-    .mainart > div > iframe {
+    .mainart > .mainbox > iframe {
         max-width: 90%;
         height: 200px;
+    }
+
+    .introduce1 {
+        font-size: 110%;
+        text-align: center;
+        margin: 0em 2em 1em 2em;
+    }
+    .introduce2 {
+        font-size: 85%;
+        text-align: center;
+        margin: 0em 2em 0em 2em;
+    }
+    .introduce3 {
+        font-size: 95%;
+        text-align: center;
+        margin: 1em 2em 0.5em 3em;
     }
 
     .footer {
@@ -112,14 +128,30 @@ body {
         display:none;
     }
 
-    .mainart > div {
+    .mainart > .mainbox {
         border: 0.8em solid rgb(120, 246, 232, 0.7);
     }
 
-    .mainart > div > iframe {
+    .mainart > .mainbox > iframe {
         width: 800px;
         max-width: 90%;
         height: 355px;
+    }
+
+    .introduce1 {
+        font-size: 3.5vh;
+        text-align: center;
+        margin: 2% 2em 1em 2em;
+    }
+    .introduce2 {
+        font-size: 2.5vh;
+        text-align: center;
+        margin: 0em 4em 0em 4em;
+    }
+    .introduce3 {
+        font-size: 3vh;
+        text-align: center;
+        margin: 1em 2em 2% 3em;
     }
 
     .footer {
@@ -212,18 +244,24 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 30px 0px 30px 0px;
+    margin: 2em 0 2em 0;
 }
 
-.mainart > div {
+.mainart > .mainbox {
     width: 1100px;
     max-width: 90%;
     /*margin:30px 50px 50px 50px;*/
-    padding: 10px 5px 10px 5px;
+    padding: 1% 5px 4% 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 2em;
+}
+
+.mainart > .mainbox > .introducebox {
+    background-color: rgba(120, 246, 232, 0.3);
+    margin: 3% 1% 0 1%;
     border-radius: 2em;
 }
 
