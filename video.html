@@ -10,13 +10,14 @@
         <link rel="stylesheet" href="css/lyrics.css" type="text/css">
         <link rel="stylesheet" href="css/diamond.css" type="text/css">
         <script src="js/backtop.js"></script>
+        <script src="js/openlyrics.js"></script>
         <meta name="description" content="Biling Biling White Diamond, 大家好我們是 雪鑽石！"/>
         <meta name="keywords" content="DD52, WHITE DIAMOND, 雪鑽石, 壞呆們, 方塊團, 雪糕"/>
         <meta name="author" content="ppolice"/>
         <title>VIDEO | WHITE DIAMOND | UNOFFICIAL</title>
     </head>
 
-    <body>
+    <body onscroll="topbfade()">
         <div id="lyricspage"></div>
 
         <div class="header">
@@ -50,72 +51,132 @@
                     <div class="vdtitledown">NEW YEAR CELEBRATION</div>
                     <iframe width="560" height="600" src="https://www.youtube-nocookie.com/embed/gXotEPjyZFw" title="NEW YEAR CELEBRATION" frameborder="0" allowfullscreen="true"></iframe>
                     <button class="openly" onclick="infor1open()">PLAYLIST</button>
+                    <div class="morebox">
+                        <!-- <div class="leftmore" onclick="scrollminus()">&#9194; more</div> -->
+                        <div class="middlemore"></div>
+                        <div class="rightmore" onclick="scrollplus()">more &#9193;</div>
+                    </div>
                 </div>
                 <div>
                     <div class="vdtitleup">雪鑽石歌曲串燒</div>
                     <div class="vdtitledown">ALL SONG PLAYLIST</div>
                     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DKu_o2G238k" title="ALL SONG PLAYLIST" frameborder="0" allowfullscreen="true"></iframe>
                     <button class="openly" onclick="infor2open()">PLAYLIST</button>
+                    <div class="morebox">
+                        <div class="leftmore" onclick="scrollminus()">&#9194; more</div>
+                        <div class="middlemore"></div>
+                        <div class="rightmore" onclick="scrollplus()">more &#9193;</div>
+                    </div>
                 </div>
                 <div>
                     <div class="vdtitleup">暴風雪</div>
                     <div class="vdtitledown">SNOWSTORM</div>
-                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MUE1dMrq7YM" title="SNOWSTORM" frameborder="0" allowfullscreen="true"></iframe>
+                    <iframe id="s1" width="560" height="315" src="https://www.youtube-nocookie.com/embed/MUE1dMrq7YM" title="SNOWSTORM" frameborder="0" allowfullscreen="true"></iframe>
                     <button class="openly" onclick="ly10open()">LYRICS</button>
+                    <div class="morebox">
+                        <div class="leftmore" onclick="scrollminus()">&#9194; more</div>
+                        <div class="middlemore"></div>
+                        <div class="rightmore" onclick="scrollplus()">more &#9193;</div>
+                    </div>
                 </div>
                 <div>
                     <div class="vdtitleup">午夜馬戲團</div>
                     <div class="vdtitledown">MIDNIGHT CIRCUS</div>
                     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/N5XHRhxAyBo" title="MIDNIGHT CIRCUS" frameborder="0" allowfullscreen="true"></iframe>
                     <button class="openly" onclick="ly9open()">LYRICS</button>
+                    <div class="morebox">
+                        <div class="leftmore" onclick="scrollminus()">&#9194; more</div>
+                        <div class="middlemore"></div>
+                        <div class="rightmore" onclick="scrollplus()">more &#9193;</div>
+                    </div>
                 </div>
                 <div>
                     <div class="vdtitleup">女皇</div>
                     <div class="vdtitledown">EMPRESS</div>
                     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-gD4v1TkJH8" title="EMPRESS" frameborder="0" allowfullscreen="true"></iframe>
                     <button class="openly" onclick="ly8open()">LYRICS</button>
+                    <div class="morebox">
+                        <div class="leftmore" onclick="scrollminus()">&#9194; more</div>
+                        <div class="middlemore"></div>
+                        <div class="rightmore" onclick="scrollplus()">more &#9193;</div>
+                    </div>
                 </div>
                 <div>
                     <div class="vdtitleup">柚子酒</div>
                     <div class="vdtitledown">GRAPEFRUIT WINE</div>
                     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qF0GJX1teHs" title="GRAPEFRUIT WINE" frameborder="0" allowfullscreen="true"></iframe>
                     <button class="openly" onclick="ly7open()">LYRICS</button>
+                    <div class="morebox">
+                        <div class="leftmore" onclick="scrollminus()">&#9194; more</div>
+                        <div class="middlemore"></div>
+                        <div class="rightmore" onclick="scrollplus()">more &#9193;</div>
+                    </div>
                 </div>
                 <div>
                     <div class="vdtitleup">關於維納斯的謠言</div>
                     <div class="vdtitledown">THE RUMOR OF VENUS</div>
                     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jJtMnRG7mns" title="THE RUMOR OF VENUS" frameborder="0" allowfullscreen="true"></iframe>
                     <button class="openly" onclick="ly6open()">LYRICS</button>
+                    <div class="morebox">
+                        <div class="leftmore" onclick="scrollminus()">&#9194; more</div>
+                        <div class="middlemore"></div>
+                        <div class="rightmore" onclick="scrollplus()">more &#9193;</div>
+                    </div>
                 </div>
                 <div>
                     <div class="vdtitleup">馬可波羅</div>
                     <div class="vdtitledown">MACRO POLO</div>
                     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vlLPO6rPrkE" title="MACRO POLO" frameborder="0" allowfullscreen="true"></iframe>
                     <button class="openly" onclick="ly5open()">LYRICS</button>
+                    <div class="morebox">
+                        <div class="leftmore" onclick="scrollminus()">&#9194; more</div>
+                        <div class="middlemore"></div>
+                        <div class="rightmore" onclick="scrollplus()">more &#9193;</div>
+                    </div>
                 </div>
                 <div>
                     <div class="vdtitleup">瘋狂駕駛</div>
                     <div class="vdtitledown">CRAZY RIDER</div>
                     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/S6pXXNYWRY0" title="CRAZY RIDER" frameborder="0" allowfullscreen="true"></iframe>
                     <button class="openly" onclick="ly4open()">LYRICS</button>
+                    <div class="morebox">
+                        <div class="leftmore" onclick="scrollminus()">&#9194; more</div>
+                        <div class="middlemore"></div>
+                        <div class="rightmore" onclick="scrollplus()">more &#9193;</div>
+                    </div>
                 </div>
                 <div>
                     <div class="vdtitleup">開口說你愛我</div>
                     <div class="vdtitledown">SAY YOU LOVE ME!</div>
                     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UvVwMSQrL0s" title="SAY YOU LOVE ME!" frameborder="0" allowfullscreen="true"></iframe>
                     <button class="openly" onclick="ly3open()">LYRICS</button>
+                    <div class="morebox">
+                        <div class="leftmore" onclick="scrollminus()">&#9194; more</div>
+                        <div class="middlemore"></div>
+                        <div class="rightmore" onclick="scrollplus()">more &#9193;</div>
+                    </div>
                 </div>
                 <div>
                     <div class="vdtitleup">雨傘還你</div>
                     <div class="vdtitledown">UMBELLA BACK TO YOU</div>
                     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Xs9R7roZ-uU" title="UMBELLA BACK TO YOU" frameborder="0" allowfullscreen="true"></iframe>
                     <button class="openly" onclick="ly2open()">LYRICS</button>
+                    <div class="morebox">
+                        <div class="leftmore" onclick="scrollminus()">&#9194; more</div>
+                        <div class="middlemore"></div>
+                        <div class="rightmore" onclick="scrollplus()">more &#9193;</div>
+                    </div>
                 </div>
                 <div>
                     <div class="vdtitleup">三振你</div>
                     <div class="vdtitledown">YOU'RE OUT</div>
                     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vqa1C0zcN50" title="YOU'RE OUT" frameborder="0" allowfullscreen="true"></iframe>
                     <button class="openly" onclick="ly1open()">LYRICS</button>
+                    <div class="morebox">
+                        <div class="leftmore" onclick="scrollminus()">&#9194; more</div>
+                        <div class="middlemore"></div>
+                        <!-- <div class="rightmore" onclick="scrollplus()">more &#9193;</div> -->
+                    </div>
                 </div>
             </div>
 
@@ -139,11 +200,11 @@
             <div>圖片版權 DD52 官方所有</div>
         </div>
 
-        <button type="button" id="BackTop"></button>
+        <button type="button" id="BackTop" onclick="backtotop()"></button>
         <!--<img src="top.png">
         </div>-->
         
-        <script src="js/openlyrics.js"></script>
+        <script src="js/scrollx.js"></script>
 
     </body>
 
