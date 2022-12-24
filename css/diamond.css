@@ -1,0 +1,37 @@
+@keyframes change-photo {
+    0% {background:
+        url(https://myfriends1033.github.io/white-diamond/photo4web/1.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: auto;}
+    25% {background: url(https://myfriends1033.github.io/white-diamond/photo4web/2.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: auto;}
+    50% {background: url(https://myfriends1033.github.io/white-diamond/photo4web/3.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: auto;}
+    75% {background: url(https://myfriends1033.github.io/white-diamond/photo4web/4.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: auto;}
+}
+
+.changephoto{
+    background: url(https://myfriends1033.github.io/white-diamond/photo4web/1.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: auto;
+    animation-name: change-photo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.diamondbox{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;      
+    flex-wrap: wrap;
+}
