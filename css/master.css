@@ -201,6 +201,11 @@ body {
     display:block;
 }
 
+.photoauthor {
+    width: 30%;
+    display:block;
+}
+
 .MenuBar {
     background-color: rgba(120, 246, 232, 0.8);
     width:100%;
