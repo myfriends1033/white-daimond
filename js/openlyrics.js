@@ -71,3 +71,33 @@ function lyclose() {
         document.querySelectorAll(".ly")[i].style.cssText += 'display:none';
     }
 }
+
+function lyup() {
+    uu = document.querySelectorAll('.ly2up')
+    dd = document.querySelectorAll('.ly2down')
+    ll = document.querySelectorAll('.ly')
+    for (i=0; i<uu.length; i++) {
+        uu[i].style.color = null;
+        uu[i].style.cssText += "color: rgba(128, 128, 128, 0)";
+        dd[i].style.color = null;
+        dd[i].style.cssText += "color: rgba(128, 128, 128, 1)";
+        ll[i].style.top = null;
+        ll[i].style.cssText += "top: -75%";
+        ll[i].style.cssText += "z-index: 1";
+    }
+}
+
+function lydown() {
+    dd = document.querySelectorAll('.ly2down')
+    uu = document.querySelectorAll('.ly2up')
+    ll = document.querySelectorAll('.ly')
+    for (i=0; i<uu.length; i++) {
+        dd[i].style.color = null;
+        dd[i].style.cssText += "color: rgba(128, 128, 128, 0);";
+        uu[i].style.color = null;
+        uu[i].style.cssText += "color: rgba(128, 128, 128, 1);";
+        ll[i].style.top = null;
+        ll[i].style.zIndex = null;
+        ll[i].style.cssText += "top: 65%";
+    }
+}
