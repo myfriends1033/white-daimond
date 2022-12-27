@@ -67,3 +67,7 @@
     transform: scale(1.2);
     transition: transform 0.8;
 } */
+
+.pictures-wrap:hover {
+    transform: scale(1.2);
+}
