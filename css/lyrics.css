@@ -80,3 +80,15 @@
     border-radius: 1em;
     margin-block-start: 0em;
 }
+
+.ly2up {
+    font-size: 0.8em;
+    text-decoration: underline;
+    color: rgba(128, 128, 128, 1);
+}
+
+.ly2down {
+    font-size: 0.8em;
+    text-decoration: underline;
+    color: rgba(128, 128, 128, 0);
+}
