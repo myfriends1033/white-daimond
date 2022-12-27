@@ -82,13 +82,17 @@
 }
 
 .ly2up {
-    font-size: 0.8em;
-    text-decoration: underline;
+    font-size: 0.9em;
     color: rgba(128, 128, 128, 1);
+    margin-block-start: 2%;
+    margin-block-end: 0em;
+    margin-left: 3%;
 }
 
 .ly2down {
-    font-size: 0.8em;
-    text-decoration: underline;
+    font-size: 0.9em;
     color: rgba(128, 128, 128, 0);
+    margin-block-start: 2%;
+    margin-block-end: 0em;
+    margin-left: 3%;
 }
